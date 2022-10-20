@@ -4,7 +4,6 @@
 #String = letras, nomes, alfas numeros (frase).
 #Int/Boolean = sem aspas (variavel inteira)
 print("Hello World")
-print("MEU NOME É SÓ EDU, não EDUARDO")
 
 nome = "Edu Guerreiro"
 idade = 18
