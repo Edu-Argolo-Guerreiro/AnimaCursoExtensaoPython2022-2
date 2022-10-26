@@ -20,3 +20,22 @@ print("Minha idade é:{} anos".format(idade))
 
 #Quando quiser exibir nome e idade pelas variaveis, usasse:
 print("Meu nome é {} e tenho {} anos".format(nome,idade))
+
+
+
+#Comando input(): quero permitir que o usuario digite algo...
+nome = input("Digite seu nome: ")
+
+#Comando de saída... exibir na tela
+print(f"Boa noite, talvez seu nome seja {nome}")
+
+idade = int(input("Digite sua idade: "))
+
+print("Sua idade é: {} anos".format(idade))
+
+print("{} você tem atualmente {} anos".format(nome,idade))
+
+#E se eu quisesse mostrar o dobro da idade informada? Preciso colocar o (int)
+dobro = idade * 2
+
+print("O dobro da sua idade informada é {}".format(dobro))
