@@ -15,3 +15,16 @@ def calc_imposto(preco_produto):
 preco = 299
 imposto = calc_imposto(preco)
 print(imposto)
+
+valores = [1.99, 24.50, 78.27, 1515.5]
+for valor in valores:
+  print(f"O imposto de 5% {valor} é {calc_imposto(valor)}")
+
+#Declarar uma função calc_imposto_aliquota que recebe dois parânmetros: o preço do produto e a alíquota de imposto a ser aplicada e retorna o imposto calculado. Ser a alíquota não for informada, utilize 7% como padrão.
+def calc_imposto_aliquota(valor, aliquota=7):
+  imposto = valor * aliquota / 100
+  return imposto
+
+for valor in valores:
+  print(f"O imposto de 7% de {valor} é {calc_imposto_aliquota(valor)}")
+ 
